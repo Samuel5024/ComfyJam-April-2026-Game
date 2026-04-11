@@ -1,9 +1,13 @@
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class BeeMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed;
+    [SerializeField] private float moveAcceleration;
+    [SerializeField] private float maxSpeed;
+    [Range(0f, 1f)]
+    [SerializeField] private float slowRate;
 
     private InputAction movementInput;
     private Rigidbody2D rb;
@@ -24,6 +28,7 @@ public class BeeMovement : MonoBehaviour
     void Update()
     {
         HandleMovement();
+        ClampSpeed();
     }
 
     private void HandleMovement()
@@ -32,7 +37,16 @@ public class BeeMovement : MonoBehaviour
         float moveVertical = movementInput.ReadValue<Vector2>().y;
 
         Vector2 movement = transform.right * moveHorizontal + transform.up * moveVertical;
-        Vector2 targetVelocity = movement.normalized * moveSpeed;
-        rb.linearVelocity = targetVelocity;
+        Vector2 targetVelocity = movement.normalized * moveAcceleration;
+        rb.AddForce(targetVelocity);
+    }
+
+    private void ClampSpeed()
+    {
+        if(rb.linearVelocity.magnitude > maxSpeed)
+        {
+            rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
+        }
+        rb.AddForce(rb.linearVelocity * -1 * slowRate);
     }
 }
