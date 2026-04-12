@@ -22,4 +22,13 @@ public class FlowerCollector : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+    public bool HasAllFlowers()
+    {
+        if(flowersColected >= maxFlowers)
+        {
+            return true;
+        }
+        return false;
+    }
 }
