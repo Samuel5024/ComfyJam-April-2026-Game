@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flowersPerMission: 10
   uniqueFlowersPerMission: 3
-  SpawnRadius: 20
+  SpawnRadius: 30
   flowerPool:
   - {fileID: 5505028076744840596, guid: 871d838a5ae06f34fbec46cf2c546960, type: 3}
   - {fileID: 2464190814709540770, guid: 707b380d839fe9d459684e4495481cf2, type: 3}
@@ -801,6 +801,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39a25fa4ef762f4da8c54bdfb1faf9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxNectar: 1000
+  minNectar: 100
+  timeToMinNectar: 60
   missionCompleteScene: BeeRoom
 --- !u!1 &1908660066
 GameObject:
