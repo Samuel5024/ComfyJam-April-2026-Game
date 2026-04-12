@@ -119,6 +119,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &381613774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381613776}
+  - component: {fileID: 381613775}
+  m_Layer: 0
+  m_Name: MissionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &381613775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381613774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecf26fb7e796e047ba5716010b1555f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowersPerMission: 10
+  uniqueFlowersPerMission: 3
+  SpawnRadius: 50
+  flowerPool:
+  - {fileID: 5505028076744840596, guid: 871d838a5ae06f34fbec46cf2c546960, type: 3}
+  - {fileID: 2464190814709540770, guid: 707b380d839fe9d459684e4495481cf2, type: 3}
+  - {fileID: 158905465474383079, guid: ef45ac2eceff83f44905811dbd284eb7, type: 3}
+  - {fileID: 8202465441145415888, guid: 5461f8cf624c0e34fbcb0830ff1241a5, type: 3}
+  - {fileID: 6238705441684355218, guid: 731e6c4b0ecb42441b41bb2ac873ad31, type: 3}
+--- !u!4 &381613776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381613774}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7071282, y: 0.54656243, z: -0.012175619}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +440,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &1908660068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,7 +539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aaccb8246b7f714da2ad877ca35e0f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxFlowers: 3
 --- !u!58 &1908660072
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -587,3 +639,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1908660070}
   - {fileID: 3253261067992698220}
+  - {fileID: 381613776}
