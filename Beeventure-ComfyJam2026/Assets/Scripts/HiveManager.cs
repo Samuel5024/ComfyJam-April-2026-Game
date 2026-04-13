@@ -10,6 +10,12 @@ public class HiveManager : MonoBehaviour
     private void Start()
     {
         startTime = Time.time;
+
+        if(ConstantData.hatType == HatType.Money)
+        {
+            maxNectar *= ConstantData.hatTeir + 1;
+            timeToMinNectar *= timeToMinNectar + 1;
+        }
     }
     [SerializeField] private string missionCompleteScene;
     private void OnCollisionEnter2D(Collision2D collision)

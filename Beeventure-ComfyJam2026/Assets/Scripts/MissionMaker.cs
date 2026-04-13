@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MissionMaker : MonoBehaviour
@@ -44,19 +45,21 @@ public class MissionMaker : MonoBehaviour
 
     private void SpawnFlowers()
     {
+        GameObject[] spawnedFlowers = new GameObject[flowersPerMission];
         int i = flowersPerMission;
         foreach (GameObject f in missionFlowers)
         {
-            Instantiate(f, UnityEngine.Random.insideUnitCircle * SpawnRadius, Quaternion.identity);
+            spawnedFlowers[i-1] = Instantiate(f, UnityEngine.Random.insideUnitCircle * SpawnRadius, Quaternion.identity);
             i--;
         }
 
         for(; i > 0; i--)
         {
-
-            Instantiate(missionFlowers[Random.Range(0,missionFlowers.Length)], 
+            spawnedFlowers[i - 1] = Instantiate(missionFlowers[Random.Range(0,missionFlowers.Length)], 
                 UnityEngine.Random.insideUnitCircle * SpawnRadius, Quaternion.identity);
         }
+
+        FindAnyObjectByType<FlowerLocator>().SetFlowers(spawnedFlowers);
     }
 
 }

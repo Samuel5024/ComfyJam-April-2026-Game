@@ -22,6 +22,12 @@ public class BeeMovement : MonoBehaviour
         }
 
         movementInput = InputSystem.actions.FindAction("Move");
+
+        if (ConstantData.hatType == HatType.Speed)
+        {
+            moveAcceleration *= ConstantData.hatTeir + 1;
+            maxSpeed *= ConstantData.hatTeir + 1;
+        }
     }
 
     // Update is called once per frame
