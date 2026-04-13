@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 0c161a5f6064cca4ab479315bef20584
+guid: af8ba705318c24641aca6a7913fcb0e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3179741866409697761
-    second: Bee_fullsprite_0
-  - first:
-      213: 7418004717372275612
-    second: Bee_fullsprite_1
-  - first:
-      213: -3847392074174788797
-    second: Bee_fullsprite_2
-  - first:
-      213: 1324814135849965088
-    second: Bee_fullsprite_3
+      213: -9122620671240450494
+    second: Bicorn_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bee_fullsprite_0
+      name: Bicorn_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 72
-        width: 214
-        height: 150
+        x: 100
+        y: 127
+        width: 132
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e1a9c86166b02c20800000000000000
-      internalID: 3179741866409697761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bee_fullsprite_1
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 221
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9b7529fcfb02f660800000000000000
-      internalID: 7418004717372275612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bee_fullsprite_2
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 212
-        width: 30
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34b882bfa415b9ac0800000000000000
-      internalID: -3847392074174788797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bee_fullsprite_3
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 190
-        width: 40
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 026d0c8ff6fa26210800000000000000
-      internalID: 1324814135849965088
+      spriteID: 24ec31e45d0f56180800000000000000
+      internalID: -9122620671240450494
       vertices: []
       indices: 
       edges: []
@@ -222,11 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Bee_fullsprite_0: 3179741866409697761
-      Bee_fullsprite_1: 7418004717372275612
-      Bee_fullsprite_2: -3847392074174788797
-      Bee_fullsprite_3: 1324814135849965088
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
