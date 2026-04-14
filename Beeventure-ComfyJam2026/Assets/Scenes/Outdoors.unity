@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 88692040}
   - component: {fileID: 88692039}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: InicatorIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628,6 +628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indicatorDistanceFromPlayer: 3
   indicator: {fileID: 88692038}
+  hive: {fileID: 1498243064}
   flowers: []
 --- !u!4 &1962276741 stripped
 Transform:
