@@ -6,6 +6,7 @@ public class FlowerLocator : MonoBehaviour
 {
     [SerializeField] private float indicatorDistanceFromPlayer = 3f;
     [SerializeField] private GameObject indicator;
+    [SerializeField] private GameObject hive;
 
     public GameObject[] flowers;
     private GameObject player;
@@ -20,7 +21,9 @@ public class FlowerLocator : MonoBehaviour
     {
         while (true)
         {
-            indicator.transform.position = (GetNearestFlower().transform.position - player.transform.position).normalized * indicatorDistanceFromPlayer + player.transform.position;
+            Vector3 directionToFlower = (GetNearestFlower().transform.position - player.transform.position).normalized;
+            indicator.transform.position = directionToFlower * indicatorDistanceFromPlayer + player.transform.position;
+            indicator.transform.rotation = Quaternion.LookRotation(Vector3.forward, directionToFlower);
             yield return new WaitForSeconds(0.1f);
         }
     }
@@ -36,11 +39,17 @@ public class FlowerLocator : MonoBehaviour
         GameObject nearestGO = null;
         foreach (GameObject go in flowers)
         {
+            if(go == null) continue;
             if ( nearest > Vector3.Distance(go.transform.position, player.transform.position))
             {
                 nearestGO = go;
                 nearest = Vector3.Distance(go.transform.position, player.transform.position);
             }
+        }
+
+        if (nearestGO == null)
+        {
+            return hive;
         }
         return nearestGO;
     }
