@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Goggles_0: 163418858641059113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

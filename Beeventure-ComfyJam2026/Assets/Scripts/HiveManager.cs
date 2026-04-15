@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class HiveManager : MonoBehaviour
 {
     [SerializeField] float maxNectar;
     [SerializeField] float minNectar;
     [SerializeField] float timeToMinNectar;
+    [SerializeField] private string missionCompleteScene;
+    [SerializeField] private Image NectarTimer;
     private float startTime;
     private void Start()
     {
@@ -17,7 +20,12 @@ public class HiveManager : MonoBehaviour
             timeToMinNectar *= timeToMinNectar + 1;
         }
     }
-    [SerializeField] private string missionCompleteScene;
+
+    private void Update()
+    {
+        NectarTimer.fillAmount = 1 - Mathf.Clamp((Time.time - startTime) / timeToMinNectar, 0f, 1f);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
