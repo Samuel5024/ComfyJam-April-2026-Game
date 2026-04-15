@@ -839,59 +839,6 @@ MonoBehaviour:
   timeToMinNectar: 60
   missionCompleteScene: BeeRoom
   NectarTimer: {fileID: 12105645}
---- !u!1 &1922092198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1922092199}
-  - component: {fileID: 1922092200}
-  m_Layer: 0
-  m_Name: Inicator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1922092199
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1922092198}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1962276741}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1922092200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1922092198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b565e0a5d2a9c419967ffbde768fdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  indicatorDistanceFromPlayer: 3
-  indicator: {fileID: 88692038}
-  hive: {fileID: 1498243064}
-  flowers: []
---- !u!4 &1962276741 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9205156781963888332, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
-  m_PrefabInstance: {fileID: 6451637778902253167}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6451637778902253167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -904,6 +851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee
       objectReference: {fileID: 0}
+    - target: {fileID: 4435522702516990300, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
+      propertyPath: hive
+      value: 
+      objectReference: {fileID: 1498243064}
+    - target: {fileID: 4435522702516990300, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
+      propertyPath: indicator
+      value: 
+      objectReference: {fileID: 88692038}
     - target: {fileID: 9205156781963888332, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -946,10 +901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 9205156781963888332, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1922092199}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
 --- !u!1660057539 &9223372036854775807

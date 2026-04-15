@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4746227184675902057}
   - component: {fileID: 5024380210383031702}
   - component: {fileID: 8534907111922662385}
+  - component: {fileID: 8607952181286368333}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Player
@@ -38,6 +39,7 @@ Transform:
   - {fileID: 3488498735547891392}
   - {fileID: 775723898009026894}
   - {fileID: 8504197079743411107}
+  - {fileID: 7931098054826874683}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5421241704526933951
@@ -185,6 +187,28 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.1}
   m_Radius: 0.5
+--- !u!114 &8607952181286368333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506328295218584807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c03e7f96e85494d91632687c02bc22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedHatT1: {fileID: 5692590956644084142, guid: e25bb24d2eef8904bbb692fb84a028f2, type: 3}
+  SpeedHatT2: {fileID: 0}
+  SpeedHatT3: {fileID: 0}
+  MoneyHatT1: {fileID: -9122620671240450494, guid: af8ba705318c24641aca6a7913fcb0e9, type: 3}
+  MoneyHatT2: {fileID: -4527066450234794707, guid: b37d5dada6f1c514a8ab74c55a84cb2d, type: 3}
+  MoneyHatT3: {fileID: 0}
+  LocatorSpriteT1: {fileID: 163418858641059113, guid: 7e998854dedd9d44b8dd2e967b97e313, type: 3}
+  LocatorSpriteT2: {fileID: 0}
+  LocatorSpriteT3: {fileID: 0}
+  HatSprite: {fileID: 707209269197752593}
 --- !u!1 &2695818115593670424
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,6 +520,54 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &8419115381226572105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7931098054826874683}
+  - component: {fileID: 4435522702516990300}
+  m_Layer: 0
+  m_Name: Inicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7931098054826874683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419115381226572105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9205156781963888332}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4435522702516990300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8419115381226572105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5b565e0a5d2a9c419967ffbde768fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indicatorDistanceFromPlayer: 3
+  indicator: {fileID: 0}
+  hive: {fileID: 0}
+  flowers: []
 --- !u!1 &8755405702146078593
 GameObject:
   m_ObjectHideFlags: 0
