@@ -204,6 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 88692040}
   - component: {fileID: 88692039}
+  - component: {fileID: 88692041}
   m_Layer: 0
   m_Name: InicatorIcon
   m_TagString: Untagged
@@ -281,6 +282,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &88692041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88692038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce07f8c434a95a43a0725162a9e270c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &381613774
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,7 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39a25fa4ef762f4da8c54bdfb1faf9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxNectar: 1000
+  maxNectar: 100000
   minNectar: 100
   timeToMinNectar: 60
   missionCompleteScene: BeeRoom
@@ -858,7 +871,7 @@ PrefabInstance:
     - target: {fileID: 4435522702516990300, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
       propertyPath: indicator
       value: 
-      objectReference: {fileID: 88692038}
+      objectReference: {fileID: 88692041}
     - target: {fileID: 4435522702516990300, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
       propertyPath: ShowDistance
       value: 15
