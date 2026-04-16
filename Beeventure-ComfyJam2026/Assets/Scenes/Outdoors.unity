@@ -847,7 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39a25fa4ef762f4da8c54bdfb1faf9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxNectar: 100000
+  maxNectar: 1000
   minNectar: 100
   timeToMinNectar: 60
   missionCompleteScene: BeeRoom
