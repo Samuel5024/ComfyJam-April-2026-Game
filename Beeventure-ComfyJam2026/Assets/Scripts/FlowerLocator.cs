@@ -8,6 +8,7 @@ public class FlowerLocator : MonoBehaviour
     [SerializeField] private GameObject indicator;
     [SerializeField] private GameObject hive;
     [SerializeField] private float smoothing = 0.01f;
+    [SerializeField] private float ShowDistance = 0.5f;
 
     private Vector3 DesiredLocation;
     private Quaternion DesiredRotation;
@@ -20,7 +21,6 @@ public class FlowerLocator : MonoBehaviour
         if (ConstantData.hatType != HatType.Detection)
         {
             indicator.SetActive(false);
-            return;
         }
 
         indicator.SetActive(true);
@@ -43,6 +43,18 @@ public class FlowerLocator : MonoBehaviour
             DesiredLocation = directionToFlower * indicatorDistanceFromPlayer + player.transform.position;
             DesiredRotation = Quaternion.LookRotation(Vector3.forward, directionToFlower);
             yield return new WaitForSeconds(0.1f);
+
+            if(ConstantData.hatType == HatType.Detection)
+            {
+                continue;
+            }
+
+            if(Vector3.Distance(GetNearestFlower().transform.position, player.transform.position) < ShowDistance)
+            {
+                indicator.SetActive(true);
+                continue;
+            }
+            indicator.SetActive(false);
         }
     }
 

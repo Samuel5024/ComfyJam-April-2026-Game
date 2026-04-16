@@ -859,6 +859,10 @@ PrefabInstance:
       propertyPath: indicator
       value: 
       objectReference: {fileID: 88692038}
+    - target: {fileID: 4435522702516990300, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
+      propertyPath: ShowDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 9205156781963888332, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
