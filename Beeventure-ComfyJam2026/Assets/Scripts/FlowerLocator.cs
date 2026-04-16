@@ -7,14 +7,32 @@ public class FlowerLocator : MonoBehaviour
     [SerializeField] private float indicatorDistanceFromPlayer = 3f;
     [SerializeField] private GameObject indicator;
     [SerializeField] private GameObject hive;
+    [SerializeField] private float smoothing = 0.01f;
+
+    private Vector3 DesiredLocation;
+    private Quaternion DesiredRotation;
 
     public GameObject[] flowers;
     private GameObject player;
 
     private void Start()
     {
+        if (ConstantData.hatType != HatType.Detection)
+        {
+            indicator.SetActive(false);
+            return;
+        }
+
+        indicator.SetActive(true);
         player = FindAnyObjectByType<BeeMovement>().gameObject;
         StartCoroutine(IndicatorRoutine());
+        indicator.transform.position = DesiredLocation;
+    }
+
+    private void Update()
+    {
+       indicator.transform.position = Vector3.Lerp(indicator.transform.position, DesiredLocation, smoothing);
+        indicator.transform.rotation = Quaternion.Lerp(indicator.transform.rotation, DesiredRotation, smoothing);
     }
 
     private IEnumerator IndicatorRoutine()
@@ -22,8 +40,8 @@ public class FlowerLocator : MonoBehaviour
         while (true)
         {
             Vector3 directionToFlower = (GetNearestFlower().transform.position - player.transform.position).normalized;
-            indicator.transform.position = directionToFlower * indicatorDistanceFromPlayer + player.transform.position;
-            indicator.transform.rotation = Quaternion.LookRotation(Vector3.forward, directionToFlower);
+            DesiredLocation = directionToFlower * indicatorDistanceFromPlayer + player.transform.position;
+            DesiredRotation = Quaternion.LookRotation(Vector3.forward, directionToFlower);
             yield return new WaitForSeconds(0.1f);
         }
     }
