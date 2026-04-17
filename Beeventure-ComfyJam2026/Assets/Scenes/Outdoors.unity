@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce07f8c434a95a43a0725162a9e270c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeofset: 1000
 --- !u!1 &99120016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1278,14 @@ PrefabInstance:
     - target: {fileID: 4435522702516990300, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
       propertyPath: ShowDistance
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974680174145671016, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263064969562488688, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
+      propertyPath: timeAdjustment
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 9205156781963888332, guid: 69dc9a70e1f0aa24ca9113b321b8601f, type: 3}
       propertyPath: m_LocalPosition.x
