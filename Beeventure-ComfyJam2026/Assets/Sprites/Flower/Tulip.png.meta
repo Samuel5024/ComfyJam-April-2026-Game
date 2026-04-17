@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tulip_0: -4365049033602724311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
