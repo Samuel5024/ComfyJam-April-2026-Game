@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3463001813634928670, guid: 974cd75e4e70caa41af1219fafa6b527, type: 3}
-  m_Color: {r: 1, g: 0.94692695, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.7832209, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -200,14 +200,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedHatT1: {fileID: 5692590956644084142, guid: e25bb24d2eef8904bbb692fb84a028f2, type: 3}
-  SpeedHatT2: {fileID: 0}
-  SpeedHatT3: {fileID: 0}
+  SpeedHatT2: {fileID: -6508153471440033980, guid: 0277d3b91ed69b84a896e51497ee2a2b, type: 3}
+  SpeedHatT3: {fileID: -8910529239692822751, guid: 0a41ff79c219b2245afd590ee67f744a, type: 3}
   MoneyHatT1: {fileID: -9122620671240450494, guid: af8ba705318c24641aca6a7913fcb0e9, type: 3}
-  MoneyHatT2: {fileID: -4527066450234794707, guid: b37d5dada6f1c514a8ab74c55a84cb2d, type: 3}
-  MoneyHatT3: {fileID: 0}
+  MoneyHatT2: {fileID: 21300000, guid: ca92af34b0c911447bc0b0e0ac8c48d8, type: 3}
+  MoneyHatT3: {fileID: 2358878884399978484, guid: 729ada24c5f66ce47acd12668de82ff5, type: 3}
   LocatorSpriteT1: {fileID: 163418858641059113, guid: 7e998854dedd9d44b8dd2e967b97e313, type: 3}
-  LocatorSpriteT2: {fileID: 0}
-  LocatorSpriteT3: {fileID: 0}
+  LocatorSpriteT2: {fileID: -4527066450234794707, guid: b37d5dada6f1c514a8ab74c55a84cb2d, type: 3}
+  LocatorSpriteT3: {fileID: 21300000, guid: dff531bd711b2e74c86931c10eb08bcf, type: 3}
   HatSprite: {fileID: 707209269197752593}
 --- !u!1 &2695818115593670424
 GameObject:
@@ -567,6 +567,9 @@ MonoBehaviour:
   indicatorDistanceFromPlayer: 3
   indicator: {fileID: 0}
   hive: {fileID: 0}
+  smoothing: 0.01
+  ShowDistance: 0.5
+  refreshRate: 0.05
   flowers: []
 --- !u!1 &8755405702146078593
 GameObject:

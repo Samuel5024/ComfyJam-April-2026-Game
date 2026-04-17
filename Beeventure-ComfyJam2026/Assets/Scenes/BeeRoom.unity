@@ -549,13 +549,13 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 987077983}
+  - {fileID: 1807385907}
   - {fileID: 1304056228}
   - {fileID: 1438988270}
   - {fileID: 464200141}
   - {fileID: 470822287}
   - {fileID: 423480508}
   - {fileID: 825226255}
-  - {fileID: 1807385907}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1649,8 +1649,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2358878884399978484, guid: 729ada24c5f66ce47acd12668de82ff5, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1873,7 +1873,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 6746821513839744380, guid: 4e1be0b431beb974b889473875a61c84, type: 3}
   m_Color: {r: 0.9245283, g: 0.8905195, b: 0.65414727, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1893,9 +1893,9 @@ Transform:
   m_GameObject: {fileID: 683949903}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4613, y: -0.6328, z: 0}
-  m_LocalScale: {x: 2.714791, y: 4.7762923, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.46, y: -0.327, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2990,7 +2990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 88.59}
+  m_AnchoredPosition: {x: -4.5, y: 320.7}
   m_SizeDelta: {x: 0, y: -177.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &873179760
@@ -3022,8 +3022,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3498,8 +3498,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dff531bd711b2e74c86931c10eb08bcf, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4006,8 +4006,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -8910529239692822751, guid: 0a41ff79c219b2245afd590ee67f744a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4497,6 +4497,10 @@ PrefabInstance:
     - target: {fileID: 1609153282484529198, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
       propertyPath: m_Name
       value: BeeNoCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516167838124940150, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.82331175
       objectReference: {fileID: 0}
     - target: {fileID: 7361024062669193348, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
       propertyPath: MoneyHatT2
@@ -6320,8 +6324,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -6508153471440033980, guid: 0277d3b91ed69b84a896e51497ee2a2b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
