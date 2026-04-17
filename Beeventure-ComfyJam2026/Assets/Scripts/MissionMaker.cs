@@ -7,6 +7,9 @@ public class MissionMaker : MonoBehaviour
     [SerializeField] private int uniqueFlowersPerMission;
     [SerializeField] private int SpawnRadius;
     [SerializeField] private GameObject[] flowerPool;
+    [Header("Background")]
+    [SerializeField] private int backgroundObjects = 10;
+    [SerializeField] private GameObject[] BackgroundPool;
     private GameObject[] missionFlowers;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,6 +19,7 @@ public class MissionMaker : MonoBehaviour
         missionFlowers = new GameObject[uniqueFlowersPerMission];
         SetFlowerPool();
         SpawnFlowers();
+        SpawnBackgroundObjects();
     }
 
     /// <summary>
@@ -60,6 +64,14 @@ public class MissionMaker : MonoBehaviour
         }
 
         FindAnyObjectByType<FlowerLocator>().SetFlowers(spawnedFlowers);
+    }
+
+    private void SpawnBackgroundObjects()
+    {
+        for(int i = 0; i < backgroundObjects; i++)
+        {
+            Instantiate(BackgroundPool[Random.Range(0,BackgroundPool.Length)], Random.insideUnitCircle * SpawnRadius, Quaternion.identity);
+        }
     }
 
 }

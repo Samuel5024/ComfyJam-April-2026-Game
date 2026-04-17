@@ -20,6 +20,30 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1378136931247613296, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.120725915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.120725915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.120725915
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.544
+      objectReference: {fileID: 0}
     - target: {fileID: 2952862179087286175, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -67,6 +91,22 @@ PrefabInstance:
     - target: {fileID: 7056695205369766990, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: flowerType
       value: FlowerA
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Size.x
+      value: 7.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Size.y
+      value: 15.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4451308597251961059, guid: 89f87aa5f70c2bd4a94167fd299b1342, type: 3}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

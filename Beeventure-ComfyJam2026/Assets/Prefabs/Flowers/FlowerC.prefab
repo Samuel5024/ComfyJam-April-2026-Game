@@ -20,13 +20,41 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.02606225
       objectReference: {fileID: 0}
+    - target: {fileID: 1378136931247613296, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.13274953
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.10262653
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0833278
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0604
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268962604711363781, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.333
+      objectReference: {fileID: 0}
+    - target: {fileID: 2952862179087286175, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2036
+      objectReference: {fileID: 0}
     - target: {fileID: 2952862179087286175, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2952862179087286175, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.1018
       objectReference: {fileID: 0}
     - target: {fileID: 2952862179087286175, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: m_LocalPosition.z
@@ -67,6 +95,22 @@ PrefabInstance:
     - target: {fileID: 7056695205369766990, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: flowerType
       value: FlowerC
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Size.x
+      value: 7.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Size.y
+      value: 15.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4365049033602724311, guid: 4c6084d308748c2488a07749cebb4a27, type: 3}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

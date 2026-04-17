@@ -2,6 +2,5 @@ Bimothy: Hello Mark! it's your first day as a new worker bee in the hive, right?
 Bimothy: All you need to do is collect nectar from all the flowers in the field, then come back to the hive.
 Bimothy: You'll get more nectar from the Queen if you collect the nectar faster.
 Bimothy: But there's no punishment for taking too long, so feel free to buzz around.
-Bimothy: You can buy hats that will change your gameplay in your bee room with nectar,
-Bimothy: and even buy cool new furniture!
+Bimothy: You can buy hats that will change your gameplay in your bee room with nectar.
 Bimothy: Mark this is good news.

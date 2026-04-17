@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1378136931247613296, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2952862179087286175, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -67,6 +71,22 @@ PrefabInstance:
     - target: {fileID: 7056695205369766990, guid: a82faca16b52341438326157306a0c08, type: 3}
       propertyPath: flowerType
       value: FlowerB
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Size.x
+      value: 6.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Size.y
+      value: 17.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8597265555138175851, guid: 126d6c497339b0e4f9f7cc016f8c14d9, type: 3}
+    - target: {fileID: 9157491169181252925, guid: a82faca16b52341438326157306a0c08, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
