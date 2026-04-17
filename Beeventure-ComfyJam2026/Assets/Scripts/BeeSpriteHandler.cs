@@ -28,7 +28,7 @@ public class BeeSpriteHandler : MonoBehaviour
         beeSprite.color = beeColor;
     }
 
-    private void SetBeeHat()
+    public void SetBeeHat()
     {
         HatSprite.color = Color.white;
         switch (ConstantData.hatType)

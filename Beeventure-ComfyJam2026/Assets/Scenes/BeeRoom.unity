@@ -534,7 +534,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 99
   m_TargetDisplay: 0
 --- !u!224 &265505712
 RectTransform:
@@ -1488,6 +1488,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &648264775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,6 +1633,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &656386555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1641,8 +1665,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: ca92af34b0c911447bc0b0e0ac8c48d8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1975,6 +1999,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2636,6 +2672,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &860863972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3289,6 +3337,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1027019363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3781,6 +3841,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4297,6 +4369,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BeeNoCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 7361024062669193348, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
+      propertyPath: MoneyHatT2
+      value: 
+      objectReference: {fileID: 21300000, guid: ca92af34b0c911447bc0b0e0ac8c48d8, type: 3}
+    - target: {fileID: 7361024062669193348, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
+      propertyPath: LocatorSpriteT2
+      value: 
+      objectReference: {fileID: -4527066450234794707, guid: b37d5dada6f1c514a8ab74c55a84cb2d, type: 3}
     - target: {fileID: 7993119503898849797, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.61
@@ -4345,6 +4425,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
+--- !u!114 &1654877546 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7361024062669193348, guid: 1e4901142a4725141a8b9b4adffbbba5, type: 3}
+  m_PrefabInstance: {fileID: 1654877545}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c03e7f96e85494d91632687c02bc22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1663374366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4440,6 +4531,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1663374369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4460,8 +4563,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -4527066450234794707, guid: b37d5dada6f1c514a8ab74c55a84cb2d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5773,6 +5876,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2036272199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6040,6 +6155,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1654877546}
+        m_TargetAssemblyTypeName: BeeSpriteHandler, Assembly-CSharp
+        m_MethodName: SetBeeHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
